@@ -1,0 +1,27 @@
+/* Container for the form */
+.container {
+    position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  /* Styling for the search button */
+  .container .child1 {
+    margin-top: 20px;
+  }
+  
+  /* Container for the weather card */
+  .weather-container {
+    display: flex;
+    justify-content: center; /* Center align the card horizontally */
+    margin-top: 150px; /* Add space from the form */
+  }
+  
+  /* Ensuring that the card is responsive and visible */
+  .weather-card {
+    max-width: 345px;
+    width: 100%; /* Ensures card is responsive while maintaining max-width */
+  }
+  
